@@ -43,7 +43,13 @@ export const Home = () => {
   return (
     <div className="flex flex-col items-start gap-6">
       <div className="relative h-32 w-32 overflow-hidden rounded-full border-2 border-[var(--border-subtle)] md:h-48 md:w-48">
-        <Image src="/Shail-Profile.jpeg" alt="Shail Shah" fill className="object-cover" priority />
+        <Image
+          src="/shailshah/Shail-Profile.jpeg"
+          alt="Shail Shah"
+          fill
+          className="object-cover"
+          priority
+        />
       </div>
       <h1 className="font-heading text-5xl font-bold tracking-tight text-[var(--text-primary)] md:text-8xl">
         <DecodeText text="Shail Shah" />
