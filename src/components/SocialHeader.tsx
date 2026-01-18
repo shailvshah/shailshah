@@ -4,7 +4,7 @@ import { Github, Linkedin, FileText, Mail } from 'lucide-react';
 
 export const SocialHeader = () => {
   return (
-    <header className="fixed top-8 left-8 z-50 flex flex-col gap-6 mix-blend-difference md:top-12 md:left-12">
+    <header className="fixed top-8 left-8 z-50 flex flex-col gap-6 rounded-full bg-transparent p-3 transition-all duration-300 hover:bg-[var(--bg-primary)]/80 hover:backdrop-blur-md md:top-12 md:left-12 md:p-4">
       <nav className="flex flex-col gap-4">
         <a
           href="https://github.com/shailvshah"
