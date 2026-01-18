@@ -1,0 +1,91 @@
+@import "tailwindcss";
+@plugin "tailwindcss-animate";
+
+:root {
+  /* LIGHT MODE ("The Clean Lab") */
+  --bg-primary: #FFFFFF;
+  --bg-secondary: #FAFAFA;
+
+  --text-primary: #171717;
+  --text-secondary: #52525B;
+
+  --accent-core: #2563EB;
+  --border-subtle: #E5E7EB;
+
+  /* Fonts - mapped to layout variables */
+  --font-heading: var(--font-heading);
+  --font-body: var(--font-body);
+  --font-mono: var(--font-mono);
+}
+
+/* Dark mode overrides - leveraging next-themes .dark class */
+:root.dark {
+  /* DARK MODE ("The Obsidian Engine") */
+  --bg-primary: #050505;
+  --bg-secondary: #121212;
+
+  --text-primary: #EDEDED;
+  --text-secondary: #A1A1AA;
+
+  --accent-core: #6366F1;
+  --border-subtle: #27272A;
+}
+
+@theme inline {
+  --color-bg-primary: var(--bg-primary);
+  --color-bg-secondary: var(--bg-secondary);
+
+  --color-text-primary: var(--text-primary);
+  --color-text-secondary: var(--text-secondary);
+
+  --color-accent-core: var(--accent-core);
+  --color-border-subtle: var(--border-subtle);
+
+  --font-heading: var(--font-heading);
+  --font-body: var(--font-body);
+  --font-mono: var(--font-mono);
+}
+
+@keyframes shimmer {
+  0% {
+    transform: translateX(-100%);
+  }
+
+  100% {
+    transform: translateX(100%);
+  }
+}
+
+.animate-shimmer {
+  animation: shimmer 2s infinite;
+}
+
+[data-nextjs-dev-tools-button] {
+  display: none !important;
+}
+
+body {
+  background-color: var(--bg-primary);
+  color: var(--text-primary);
+  font-family: var(--font-body);
+  overflow-x: hidden;
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+/* Custom Scrollbar */
+::-webkit-scrollbar {
+  width: 8px;
+}
+
+::-webkit-scrollbar-track {
+  background: var(--bg-primary);
+}
+
+::-webkit-scrollbar-thumb {
+  background: var(--border-subtle);
+  border-radius: 4px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: var(--accent-core);
+}
