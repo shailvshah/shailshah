@@ -4,8 +4,8 @@ import { Github, Linkedin, FileText, Mail } from 'lucide-react';
 
 export const SocialHeader = () => {
   return (
-    <header className="fixed top-8 left-8 z-50 flex flex-col gap-6 rounded-full bg-transparent p-3 transition-all duration-300 hover:bg-[var(--bg-primary)]/80 hover:backdrop-blur-md md:top-12 md:left-12 md:p-4">
-      <nav className="flex flex-col gap-4">
+    <header className="fixed bottom-6 left-1/2 z-50 flex -translate-x-1/2 flex-row gap-6 rounded-full bg-[var(--bg-primary)] p-3 shadow-xl transition-all duration-300 md:top-12 md:bottom-auto md:left-12 md:translate-x-0 md:flex-col md:bg-transparent md:p-4 md:shadow-none md:hover:bg-[var(--bg-primary)]/80 md:hover:backdrop-blur-md">
+      <nav className="flex flex-row gap-4 md:flex-col">
         <a
           href="https://github.com/shailvshah"
           target="_blank"

@@ -3,6 +3,7 @@
 import Image from 'next/image';
 import { useEffect, useState } from 'react';
 import { DecodeText } from './DecodeText';
+import { ScrollDown } from './ScrollDown';
 
 export const Home = () => {
   // Simple typewriter effect hook or logic
@@ -41,7 +42,7 @@ export const Home = () => {
   }, [text, isDeleting, loopNum, typingSpeed]);
 
   return (
-    <div className="flex flex-col items-start gap-6">
+    <div className="relative flex w-full flex-col items-start gap-6">
       <div className="relative h-32 w-32 overflow-hidden rounded-full border-2 border-[var(--border-subtle)] md:h-48 md:w-48">
         <Image
           src="/shailshah/Shail-Profile.jpeg"
@@ -58,6 +59,7 @@ export const Home = () => {
         {text}
         <span className="animate-pulse text-[var(--accent-core)]">|</span>
       </h2>
+      <ScrollDown />
     </div>
   );
 };
