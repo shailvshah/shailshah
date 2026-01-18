@@ -6,7 +6,7 @@ const nextConfig: NextConfig = {
     unoptimized: true,
   },
   // Ensure the base path matches your GitHub repository name if it's not a user site
-  // basePath: '/shailshah',
+  basePath: '/shailshah',
 };
 
 export default nextConfig;
