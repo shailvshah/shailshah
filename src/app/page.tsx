@@ -31,17 +31,18 @@ export default function Home() {
                 </h3>
               </div>
               <p className="font-body text-lg leading-relaxed text-[var(--text-secondary)]">
-                Architecting systems where{' '}
+                I love to work where{' '}
+                <span className="font-medium text-[var(--text-primary)]">technology</span>,{' '}
+                <span className="font-medium text-[var(--text-primary)]">data</span>, and{' '}
+                <span className="font-medium text-[var(--text-primary)]">AI</span> come together to
+                create practical, high-impact systems. My approach is grounded in understanding what
+                truly matters to the business and shaping{' '}
                 <span className="font-medium text-[var(--text-primary)]">
-                  algorithmic intelligence
+                  scalable engineering solutions
                 </span>{' '}
-                meets{' '}
-                <span className="font-medium text-[var(--text-primary)]">engineering reality</span>.
-                I bridge the gap between theoretical modeling and production—building the data
-                backbones and cloud infrastructure needed to make{' '}
-                <span className="font-medium text-[var(--text-primary)]">Agentic AI</span> and{' '}
-                <span className="font-medium text-[var(--text-primary)]">predictive analytics</span>{' '}
-                scalable, resilient, and effective.
+                around it. By combining strong data foundations with intelligent, adaptive software,
+                I build platforms that enable teams to move faster, make better decisions, and turn
+                ambitious ideas into outcomes that last.
               </p>
             </div>
           </FadeIn>
@@ -57,15 +58,14 @@ export default function Home() {
               </div>
               <div className="flex h-full flex-col justify-between gap-4">
                 <p className="font-heading text-2xl leading-tight font-light text-[var(--text-primary)]">
-                  Fueled by the challenge of turning product ambition into engineering reality.
+                  From building systems to shaping how and why they get built.
                 </p>
                 <div className="font-body mt-auto border-l-2 border-[var(--accent-core)] pl-4 text-lg leading-relaxed text-[var(--text-secondary)]">
-                  Writing code is satisfying, but solving the business puzzle is what truly drives
-                  me. I thrive in{' '}
-                  <span className="text-[var(--text-primary)]">dynamic environments</span>
-                  , navigating the gap between a &quot;cool demo&quot; and a viable product. I
-                  don&apos;t just drive architecture; I deconstruct the strategy to ensure that
-                  technical complexity transforms into tangible commercial value.
+                  I’m motivated by hard problems that don’t come with clean boundaries. I like
+                  staying close to the work, especially where systems need to evolve under real
+                  constraints and imperfect information. Over time, my focus has shifted toward
+                  building things that continue to behave well as scale, usage, and autonomy
+                  increase.
                   <br />
                   <br />
                   <span className="font-bold text-[var(--text-primary)]">
