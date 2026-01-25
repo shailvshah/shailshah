@@ -372,16 +372,18 @@ export default function Home() {
                   <div className="font-body max-w-lg text-[var(--text-primary)] opacity-90 md:w-2/3">
                     <ul className="list-disc space-y-2 pl-4 text-base leading-relaxed text-[var(--text-secondary)]">
                       <li>
-                        Unveiled key operational inefficiencies for senior leadership through
-                        automated data-driven insights.
+                        Played a pivotal role in assessing senior leadership strategies through the
+                        presentation of crucial metrics, unveiling operational inefficiencies
+                        through data-driven insights.
                       </li>
                       <li>
-                        Engineered robust Python/Splunk solutions to automate IoT device monitoring,
-                        replacing manual reporting.
+                        Engineered robust and scalable solutions utilizing Python and Splunk,
+                        establishing an automated system for monitoring and evaluating IoT device
+                        data.
                       </li>
                       <li>
-                        Revamped building commissioning processes, boosting deployment efficiency by{' '}
-                        <span className="font-medium text-[var(--text-primary)]">20%</span>.
+                        Revamped the building commissioning process by introducing an innovative
+                        approach, leading to a notable 20% enhancement in deployment efficiency.
                       </li>
                     </ul>
                   </div>
@@ -403,19 +405,24 @@ export default function Home() {
                       Data Engineer II
                     </p>
                     <div className="mt-2 font-mono text-xs text-[var(--text-tertiary)]">
-                      Dec 2021 — 2023
+                      Nov 2021 — Sep 2023
                     </div>
                   </div>
                   <div className="font-body max-w-lg text-[var(--text-primary)] opacity-90 md:w-2/3">
                     <ul className="list-disc space-y-2 pl-4 text-base leading-relaxed text-[var(--text-secondary)]">
                       <li>
-                        Established a unified data architecture to ensure seamless integration
-                        across diverse product lines.
+                        Built production microservices in Go for an edge IoT platform, enabling
+                        reliable ingestion and processing of device telemetry at scale.
                       </li>
                       <li>
-                        Built an innovative resolution system for diagnosing IoT/network
-                        malfunctions, leveraging SNMP telemetry and network topology to pinpoint
-                        root causes.
+                        Developed a root-cause analysis service using device metadata and IoT
+                        telemetry, applying statistical analysis to generate health metrics and
+                        surface failure patterns.
+                      </li>
+                      <li>
+                        Implemented low-latency data pipelines using MongoDB, MQTT, and Protocol
+                        Buffers, supporting observability, alerting, and production reliability
+                        across distributed systems.
                       </li>
                     </ul>
                   </div>
@@ -434,33 +441,28 @@ export default function Home() {
                       View, Inc.
                     </h4>
                     <p className="font-mono text-sm text-[var(--text-secondary)]">
-                      Senior AI Engineer
+                      Sr. AI Engineer
                     </p>
                     <div className="mt-2 font-mono text-xs text-[var(--text-tertiary)]">
-                      2023 — 2024
+                      Oct 2023 — Oct 2024
                     </div>
                   </div>
                   <div className="font-body max-w-lg text-[var(--text-primary)] opacity-90 md:w-2/3">
-                    <p className="mb-4 text-base leading-relaxed">
-                      Spearheaded the{' '}
-                      <span className="font-medium text-[var(--text-primary)]">
-                        Tenant Intelligence Platform
-                      </span>
-                      , fusing Large Language Models (LLM) with Knowledge Graphs to derive
-                      actionable insights from OT data.
-                    </p>
                     <ul className="list-disc space-y-2 pl-4 text-base leading-relaxed text-[var(--text-secondary)]">
                       <li>
-                        Designed a RAG architecture to query unstructured manual data against
-                        real-time IoT telemetry.
+                        Designed and implemented an LLM-based agent (LangChain, Agno) that reduced
+                        internal onboarding and IoT device troubleshooting time by 15% by automating
+                        guided resolution workflows.
                       </li>
                       <li>
-                        Built the semantic layer connecting discrete building systems (HVAC,
-                        Lighting, Access) into a unified Knowledge Graph.
+                        Integrated agentic capabilities into an existing production product to
+                        deliver on-demand tenant intelligence from Operational Technology (OT) data,
+                        supporting existing customers without disrupting existing systems.
                       </li>
                       <li>
-                        Significantly reduced incident response time by providing context-aware AI
-                        diagnostics to facility managers.
+                        Built tenant-level insights by combining occupancy, leasing, and financial
+                        signals, enabling faster and more informed decision-making beyond static
+                        regional or industry-based reporting.
                       </li>
                     </ul>
                   </div>
@@ -480,38 +482,32 @@ export default function Home() {
                     </h4>
                     <p className="font-mono text-sm text-[var(--text-secondary)]">AI Lead</p>
                     <div className="mt-2 font-mono text-xs text-[var(--text-tertiary)]">
-                      2024 — Present
+                      Oct 2024 — Present
                     </div>
                   </div>
                   <div className="font-body max-w-lg text-[var(--text-primary)] opacity-90 md:w-2/3">
                     <p className="mb-4 text-base leading-relaxed">
-                      Architected and shipped{' '}
-                      <a
-                        href="https://chromewebstore.google.com/detail/robin/aledejppcnonenmfpagnhchclhcaddem"
-                        target="_blank"
-                        rel="noopener noreferrer"
-                        className="font-medium text-[var(--accent-core)] hover:underline"
-                      >
-                        Robin
-                      </a>
-                      , an AI co-pilot for property operations. Built the entire solution—from
-                      application layer to AI inference—to automate facility management workflows.
+                      Leading the AI product strategy for{' '}
+                      <span className="font-medium text-[var(--text-primary)]">Robin</span>, the
+                      industry’s first agentic AI for building operations.
                     </p>
                     <ul className="list-disc space-y-2 pl-4 text-base leading-relaxed text-[var(--text-secondary)]">
                       <li>
-                        Designed a secure, no-code architecture requiring{' '}
-                        <span className="font-medium text-[var(--text-primary)]">
-                          zero integration overhead
-                        </span>
-                        .
+                        Owned AI product strategy and architecture for Robin, translating ambiguous
+                        customer and market needs into production-grade LLM systems through direct
+                        engagement with customers and domain SMEs.
                       </li>
                       <li>
-                        Engineered production-ready agentic workflows capable of handling complex,
-                        real-world operational data.
+                        Led end-to-end delivery and cross-functional execution, aligning
+                        engineering, product, sales, and senior leadership (SLT) to ship
+                        production-ready agentic workflows with automated end-to-end evaluation,
+                        safety guardrails, and measurable real-world performance.
                       </li>
                       <li>
-                        Led the full product lifecycle from concept to production, delivering
-                        tangible automation value.
+                        Scaled teams and execution in a high-velocity startup environment, managing
+                        and mentoring engineers, setting technical standards, and establishing
+                        continuous feedback loops that enabled rapid iteration and strategic pivots
+                        without disrupting development cycles or platform stability.
                       </li>
                     </ul>
                   </div>
